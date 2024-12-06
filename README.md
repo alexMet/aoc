@@ -12,11 +12,13 @@ For a different year:
 make YEAR=2021 DAY=03 day
 ```
 
-Build and run a single puzzle:
+Run a single puzzle from cmd:
 ```
-cd YEAR/
-odin build day0X/main.odin -file
-time ./main.bin
+time /path/to/odin run 202X/day0X/main.odin -file
+```
+or from inside nvim:
+```
+:!time ../Odin/odin run % -file                                                                                                           
 ```
 
 ## Show me your input
